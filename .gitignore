@@ -1,0 +1,48 @@
+# Service References
+*.datasource
+*.wsdl
+*.xsd
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+PublishProfiles/
+TestApp/
+TestApp2/
+HandlebarsTest/
+DotLiquidTest/
+.vs/
+**/logs/
+/Intranet.Web.Server/Data
+**/*log*.txt
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+*.psess
+*.vsp
+
+# Jetbrain Rider Cache
+.idea/
+Assets/Plugins/Editor/JetBrains*
+*.xml
+.config/
+.fleet/
+
+#local configurations
+**/appsettings.local.json
